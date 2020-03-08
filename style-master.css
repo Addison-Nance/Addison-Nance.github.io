@@ -1,23 +1,22 @@
 .container-fluid{
     background-color:#ffffff;
     border-bottom:1px #cccccc solid;
-    height:100px;
+    height:auto;
 }
 .container-sm{
     background-color:#4aaaa5;
-    margin-left:100px;
-    margin-top:20px;
-    margin-bottom:10px;
     width:350px;
     height:75px;
     color:white;
     float:left;
     padding-top:10px;
     text-align:center;
+    position: relative;
+    margin-bottom:10px;
 }
-.navbar{
+.nav{
+    margin-top:10px;
     float:right;
-    margin-top:20px;
 }
 .clearfix::after {
     content: "";
@@ -25,26 +24,57 @@
     display: table;
   }
 body{
-    background-image: url(assets/pixel-heart.png);
+    background-image: url(assets/vintage-wallpaper.png);
     background-color:#ccc;
     background-repeat: repeat;
 }
 .col-md-8{
     background-color:white;
     margin-top:20px;
+    /* padding:20px; */
 }
 p{
-    display:inline;
+    
     margin-left:20px;
-    text-align:right;
+    text-align:left;
 }
-img{
+.aboutimg{
     float:left;
-    margin-right:10px;
+    margin:10px 20px 10px 20px;
 }
 footer{
     text-align:center;
+    margin-top:30px;
+    color:white;
+    
 }
 .fixed-bottom{
-    background-color:#4aaaa5
+    background-color:#4aaaa5;
+    height:50px;
+}
+#foot{
+    background-color:#666666;
+    height:40px;
+    padding:5px;
+}
+.container5{
+    padding:10px 10px 10px 10px;
+}
+.pigeon{
+    color:white;
+}
+.card-deck{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+
+}
+.container6{
+   padding-left:50px;
+    padding-right:50px;
+    margin-bottom:50px;
+} 
+.cardsimg{
+    height:150px;
+    width:150px;
 }
