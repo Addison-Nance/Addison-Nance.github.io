@@ -1,0 +1,50 @@
+.container-fluid{
+    background-color:#ffffff;
+    border-bottom:1px #cccccc solid;
+    height:100px;
+}
+.container-sm{
+    background-color:#4aaaa5;
+    margin-left:100px;
+    margin-top:20px;
+    margin-bottom:10px;
+    width:350px;
+    height:75px;
+    color:white;
+    float:left;
+    padding-top:10px;
+    text-align:center;
+}
+.navbar{
+    float:right;
+    margin-top:20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body{
+    background-image: url(assets/pixel-heart.png);
+    background-color:#ccc;
+    background-repeat: repeat;
+}
+.col-md-8{
+    background-color:white;
+    margin-top:20px;
+}
+p{
+    display:inline;
+    margin-left:20px;
+    text-align:right;
+}
+img{
+    float:left;
+    margin-right:10px;
+}
+footer{
+    text-align:center;
+}
+.fixed-bottom{
+    background-color:#4aaaa5
+}
