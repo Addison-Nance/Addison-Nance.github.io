@@ -1,80 +1,87 @@
-.container-fluid{
-    background-color:#ffffff;
-    border-bottom:1px #cccccc solid;
-    height:auto;
+.container-fluid {
+  background-color: #ffffff;
+  border-bottom: 1px #cccccc solid;
+  height: auto;
 }
-.container-sm{
-    background-color:#4aaaa5;
-    width:350px;
-    height:75px;
-    color:white;
-    float:left;
-    padding-top:10px;
-    text-align:center;
-    position: relative;
-    margin-bottom:10px;
+.container-sm {
+  background-color: #4aaaa5;
+  width: 350px;
+  height: 75px;
+  color: white;
+  float: left;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
 }
-.nav{
-    margin-top:10px;
-    float:right;
+.nav {
+  margin-top: 10px;
+  float: right;
 }
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-body{
-    background-image: url(assets/vintage-wallpaper.png);
-    background-color:#ccc;
-    background-repeat: repeat;
+  content: "";
+  clear: both;
+  display: table;
 }
-.col-md-8{
-    background-color:white;
-    margin-top:20px;
-    /* padding:20px; */
+body {
+  background-image: url(assets/vintage-wallpaper.png);
+  background-color: #ccc;
+  background-repeat: repeat;
 }
-p{
-    
-    margin-left:20px;
-    text-align:left;
+.col-md-8 {
+  background-color: white;
+  margin-top: 20px;
+  /* padding:20px; */
 }
-.aboutimg{
-    float:left;
-    margin:10px 20px 10px 20px;
+p {
+  margin-left: 20px;
+  text-align: left;
 }
-footer{
-    text-align:center;
-    margin-top:30px;
-    color:white;
-    
+.aboutimg {
+  float: left;
+  margin: 10px 20px 10px 20px;
 }
-.fixed-bottom{
-    background-color:#4aaaa5;
-    height:50px;
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
 }
-#foot{
-    background-color:#666666;
-    height:40px;
-    padding:5px;
+.fixed-bottom {
+  background-color: #4aaaa5;
+  height: 50px;
 }
-.container5{
-    padding:10px 10px 10px 10px;
+#foot {
+  background-color: #666666;
+  height: 40px;
+  padding: 5px;
 }
-.pigeon{
-    color:white;
+.container5 {
+  padding: 10px 10px 10px 10px;
 }
-.card-deck{
-    margin-left:50px;
-    margin-right:50px;
-    margin-top:50px;
-
+.pigeon {
+  color: white;
 }
-.container6{
-   padding-left:50px;
-    padding-right:50px;
-    margin-bottom:50px;
-} 
-.cardsimg{
-    height:150px;
-    width:150px;
+.card-deck {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.container6 {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+.cardsimg {
+  height: 150px;
+  width: 150px;
+}
+.cardimg1 {
+  height: 300px;
+  width: 365px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+.cardimg2 {
+  margin-bottom: 110px;
+  margin-left: 25px;
 }
