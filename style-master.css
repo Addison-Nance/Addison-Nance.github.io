@@ -80,10 +80,15 @@ footer {
 .cardimg1 {
   height: 300px;
   width: 365px;
-  margin-bottom: 20px;
+  margin-bottom: 110px;
   margin-left: 5px;
 }
 .cardimg2 {
   margin-bottom: 110px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
+  height:300px;
+  width:370px;
+}
+.starwar{
+  width:370px;
 }
