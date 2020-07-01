@@ -1,76 +1,94 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="style-master.css" />
-  <title>Addison Nance Portfolio</title>
-</head>
-
-<body>
-  <header>
-    <div class="clearfix">
-     
-        <div class="container-fluid">
-          <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <div class="container-sm">
-              <h1>Addison Nance</h1>
-            </div>
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2"></div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addison Nance</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style-contact.css" />
+  </head>
+  <body style="background-image: url(assets/images/watercolor.png);">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper deep-purple accent-1">
+          <a href="index.html" class="brand-logo">Addison Nance</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="active"><a href="contact.html">Contact Me</a></li>
+          </ul>
         </div>
-      </div>
-      </div>
-
+      </nav>
     </div>
-  </header>
-  <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <div class="container5">
-          <h1>Contact Me!</h1>
-        <form>
-            <div class="form-group">
-                <label for="exampleInputName1">Name</label>
-                <input type="name" class="form-control" id="exampleInputName1">
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li class="active"><a href="contact.html">Contact Me</a></li>
+    </ul>
+    <!-- main content -->
+    <div class="row">
+      <div class="col s2 sidebar"></div>
+      <div class="col s8">
+        <div class="row">
+        <div class="row contactbody  valign-wrapper">
+          <div class="col s6">
+            <p>
+              <h1>Let's talk?</h1>
+              <h3>Fill out the form, drop me a line, or send me a pigeon <a href="https://flypigeon.co/">here!</a></h3>
+              <h6>Heads up! This form doesn't go anywhere yet. Please email me at "madi.nance911@gmail.com"</h6>
+            </p>
+          </div>
+          <form class="col s6">
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  placeholder="Name"
+                  id="name"
+                  type="text"
+                  class="validate"
+                />
+                <label for="Name">Name: </label>
               </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">I'll only share your email with my dog.</small>
             </div>
-            <div class="form-group">
-                <label for="exampleInputMessage1">Message</label>
-                <textarea class="form-control" id="exampleInputMessage1" rows='3'></textarea>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="Email">Email:</label>
+                <span class="helper-text" data-error="wrong" data-success="right">I won't sell your email to anyone, but my dog might see it.</span>
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light deep-purple accent-1" type="submit" name="action">Submit
+              <i class="material-icons right "></i>
+            </button>
           </form>
         </div>
-        <h6 class='pigeon'>Don't like forms? Me either, send me a carrier pigeon <a href='https://flypigeon.co/' class='pigeon'>Here</a></h6>
-    </div>
       </div>
+      <div class="col s2 sidebar"></div>
     </div>
-  </div>
-  <div class="col-md-2"></div>
-  <footer class="footer">
-    <div class="fixed-bottom"></div>
-    <div class="fixed-bottom" id="foot">
-      <span>Copyright 2020 Addison Nance</span>
-    </div>
-  </footer>
-</body>
+    <!-- Link to Javascript file -->
+    <script src="assets/javascript/master-script.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

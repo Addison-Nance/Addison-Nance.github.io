@@ -1,65 +1,98 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addison Nance</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="style-master.css" />
-  <title>Addison Nance Portfolio</title>
-</head>
-
-<body>
-  <header>
-    <div class="clearfix">
-     
-        <div class="container-fluid">
-          <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <div class="container-sm">
-              <h1>Addison Nance</h1>
-            </div>
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-            </ul>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style-master.css" />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper deep-purple accent-1">
+          <a href="index.html" class="brand-logo">Addison Nance</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+    <!-- main content -->
+    <div id="push"></div>
+    <section
+      class="orange valign-wrapper"
+      style="background-image: url(assets/images/watercolor.png);"
+    >
+      <div class="container valign">
+        <div class="row">
+          <div class="col l12">
+            <h1 class="center-align myname">Addison Nance</h1>
+            <h4 class="center-align mytitle">Full stack Web Developer</h4>
+            <p class="center-align flow-text">
+              <a
+                class="waves-effect waves-light btn-large deep-purple accent-1"
+                href="portfolio.html"
+                >My Portfolio</a
+              >
+            </p>
           </div>
-          <div class="col-md-2"></div>
         </div>
       </div>
-      </div>
+    </section>
+    <div class="mainbody">
+      <div class="row">
+        <div class="col s2 sidebar"></div>
+        <div class="col s8 contentBody">
+          <img src="assets/images/unknown1.png" class="myface" alt="addisonheadshot">
+          <div class="aboutme">
+            <p>
+              Hello! My name is Addison Nance, I'm 21 years old and I Identify
+              as Non-Binary and my pronous are She/Her or They/Them. I am
+              currently studying software development in order to leave my
+              current career in shipping and logisitics. In my free time (if
+              any) I am a filmmaker, I repair electronics, play videog games,
+              and I love going to the movies.
+            </p>
+            <p>
+              This website will serve as my online resume and portfolio and will
+              be continuously expanded. Please check back often.
+            </p>
+            <a href="https://www.linkedin.com/in/addison-nance/" class="valign-wrapper"><i class="medium material-icons">account_circle</i>My LinkedIn</a>
+          </div>
+  
 
-    </div>
-  </header>
-  <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <div class="container5">
-        <img src="assets/unknown.png" height="200px" width="225px" alt="Addison Nance" class="aboutimg"/>
-        <p>
-          Hello! My name is Addison Nance, I'm 21 years old and I Identify as Non-Binary and my pronous are They/Them or She/Her. I am currently studying software development in order to leave my current career in shipping and logisitics. 
-          In my free time (if any) I am a filmmaker, I repair electronics, play videog games, and I love going to the movies.
-        </p>
-        <p>
-          This website will serve as my online resume and portfolio and will be continuously expanded. Please check back often.
-        </p>
+        </div>
       </div>
+      <div class="col s2 sidebar"></div>
     </div>
-  </div>
-  <div class="col-md-2"></div>
-  <footer class="footer">
-    <div class="fixed-bottom"></div>
-    <div class="fixed-bottom" id="foot">
-      <span>Copyright 2020 Addison Nance</span>
-    </div>
-  </footer>
-</body>
-
+    <!-- Link to Javascript file -->
+    <script src="assets/javascript/master-script.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

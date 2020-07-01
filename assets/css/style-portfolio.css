@@ -1,0 +1,17 @@
+.cardimg1{
+    padding:10px;
+}
+.cardimg2{
+    padding:25px;
+    margin:12.5px;
+}
+.brand-logo{
+    margin-left:15px;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+
+}
+.firstrow{
+    margin-top:20px;
+}
